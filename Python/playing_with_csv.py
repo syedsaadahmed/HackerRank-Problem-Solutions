@@ -66,9 +66,9 @@ def calc_average( year ):
 def max_and_min(maxim,minim):
 	for key, value in pydict.iteritems():
 		if str(maxim) in value:
-			print key,maxim
+			print "Maximum of the year is in {}, which is {}".format(key,maxim)
 		if str(minim) in value:
-			print key,minim
+			print "Maximum of the year is in {}, which is {}".format(key,minim)
 
 
 print "***************************************************"
